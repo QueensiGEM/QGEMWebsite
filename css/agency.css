@@ -455,7 +455,7 @@ header {
 	background-size:cover;
 	-o-background-size:cover;
 	text-align:center;
-    color: aqua
+    background-color: aqua;
 }
 
 header .intro-text {
