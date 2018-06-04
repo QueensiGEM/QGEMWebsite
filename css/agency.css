@@ -447,7 +447,6 @@ button#dLabel:focus {
 }
 
 header {
-    background-color: #0485BF
 	background-repeat:none;
 	background-attachment:scroll;
 	background-position:center center;
@@ -456,7 +455,7 @@ header {
 	background-size:cover;
 	-o-background-size:cover;
 	text-align:center;
-	color:#fff
+	color:#0485BF
 }
 
 header .intro-text {
