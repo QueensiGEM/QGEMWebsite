@@ -470,6 +470,7 @@ header .intro-text .intro-lead-in {
 	line-height:22px;
 	margin-top:25px;
 	margin-bottom:25px;
+    color:#fffff;
 }
 
 header .intro-text .intro-heading {
@@ -480,6 +481,7 @@ header .intro-text .intro-heading {
 	line-height:50px;
 	margin-top:25px;
 	margin-bottom:25px;
+	color:#fffff;
 }
 
 @media (min-width:768px){
