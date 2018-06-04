@@ -455,7 +455,7 @@ header {
 	background-size:cover;
 	-o-background-size:cover;
 	text-align:center;
-	color:#0485BF
+    color: aqua
 }
 
 header .intro-text {
@@ -469,7 +469,8 @@ header .intro-text .intro-lead-in {
 	font-size:22px;
 	line-height:22px;
 	margin-top:25px;
-	margin-bottom:25px
+	margin-bottom:25px;
+    color:#fffff;
 }
 
 header .intro-text .intro-heading {
