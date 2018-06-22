@@ -57,7 +57,7 @@ h3,
 h4,
 h5,
 h6 {
-	font-family:Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-family:Arial;
 	font-weight:700
 }
 
@@ -77,7 +77,7 @@ h6 {
 	color:#fff;
 	background-color:#fffff;
 	border-color:#fffff;
-	font-family:Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-family:Arial;
 	text-transform:uppercase;
 	font-weight:700
 }
@@ -126,7 +126,7 @@ fieldset[disabled] .btn-primary.active {
 	color:#fff;
 	background-color:#fffff;
 	border-color:#fffff;
-	font-family:Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-family:Arial;
 	text-transform:uppercase;
 	font-weight:700;
 	border-radius:3px;
@@ -138,7 +138,7 @@ fieldset[disabled] .btn-primary.active {
 	color:#fff;
 	background-color:#1a75ff;
 	border-color:#1a75ff;
-	font-family:Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-family:Arial;
 	text-transform:uppercase;
 	font-weight:700;
 	border-radius:3px;
@@ -150,7 +150,7 @@ fieldset[disabled] .btn-primary.active {
 	color:#fff;
 	background-color:#f23b0d;
 	border-color:#f23b0d;
-	font-family:Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-family:Arial;
 	text-transform:uppercase;
 	font-weight:700;
 	border-radius:3px;
@@ -162,7 +162,7 @@ fieldset[disabled] .btn-primary.active {
 	color:#fff;
 	background-color:#00e673;
 	border-color:#00e673;
-	font-family:Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-family:Arial;
 	text-transform:uppercase;
 	font-weight:700;
 	border-radius:3px;
@@ -337,7 +337,7 @@ fieldset[disabled] .btn-xl-grn.active {
 
 .navbar-default .navbar-brand {
 	color:#fffff;
-	font-family:"Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive
+	font-family:Arial;
 }
 
 .navbar-default .navbar-brand:hover,
@@ -366,7 +366,7 @@ fieldset[disabled] .btn-xl-grn.active {
 }
 
 .navbar-default .nav li a {
-	font-family:Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-family:Arial;
 	text-transform:uppercase;
 	font-weight:400;
 	letter-spacing:1px;
@@ -380,7 +380,7 @@ fieldset[disabled] .btn-xl-grn.active {
 }
 
 button#dLabel {
-	font-family:Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-family:Arial;
 	text-transform:uppercase;
 	font-weight:400;
 	letter-spacing:1px;
@@ -463,7 +463,7 @@ header .intro-text {
 }
 
 header .intro-text .intro-lead-in {
-	font-family:"Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-family:"Arial";
 	font-style:italic;
 	font-size:22px;
 	line-height:22px;
@@ -472,7 +472,7 @@ header .intro-text .intro-lead-in {
 }
 
 header .intro-text .intro-heading {
-	font-family:Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-family:Arial;
 	text-transform:uppercase;
 	font-weight:700;
 	font-size:50px;
@@ -489,7 +489,7 @@ header .intro-text .intro-heading {
 	}
 
 	header .intro-text .intro-lead-in {
-		font-family:"Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+		font-family:"Arial";
 		font-style:italic;
 		font-size:40px;
 		line-height:40px;
@@ -497,7 +497,7 @@ header .intro-text .intro-heading {
 	}
 
 	header .intro-text .intro-heading {
-		font-family:Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+		font-family:Arial;
 		text-transform:uppercase;
 		font-weight:700;
 		font-size:60px;
@@ -524,7 +524,7 @@ section h2.section-header {
 
 section h3.section-subheading {
 	font-size:16px;
-	font-family:"Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-family:"Arial";
 	text-transform:none;
 	font-style:italic;
 	font-weight:400;
@@ -614,7 +614,7 @@ h3.service-headingleft {
 }
 
 #portfolio .portfolio-item .portfolio-caption p {
-	font-family:"Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-family:"Arial";
 	font-style:italic;
 	font-size:16px;
 	margin:0
@@ -902,28 +902,28 @@ section#contact .form-control:focus {
 }
 
 section#contact ::-webkit-input-placeholder {
-	font-family:Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-family:Arial;
 	text-transform:uppercase;
 	font-weight:700;
 	color:#bbb
 }
 
 section#contact :-moz-placeholder {
-	font-family:Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-family:Arial;
 	text-transform:uppercase;
 	font-weight:700;
 	color:#bbb
 }
 
 section#contact ::-moz-placeholder {
-	font-family:Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-family:Arial;
 	text-transform:uppercase;
 	font-weight:700;
 	color:#bbb
 }
 
 section#contact :-ms-input-placeholder {
-	font-family:Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-family:Arial;
 	text-transform:uppercase;
 	font-weight:700;
 	color:#bbb
@@ -940,7 +940,7 @@ footer {
 
 footer span.copyright {
 	line-height:40px;
-	font-family:Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-family:Arial;
 	text-transform:uppercase;
 	text-transform:none
 }
@@ -948,7 +948,7 @@ footer span.copyright {
 footer ul.quicklinks {
 	margin-bottom:0;
 	line-height:40px;
-	font-family:Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-family:Arial;
 	text-transform:uppercase;
 	text-transform:none
 }
@@ -1007,7 +1007,7 @@ ul.social-buttons li a:active {
 
 .portfolio-modal .modal-content p.item-intro {
 	margin:20px 0 30px;
-	font-family:"Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-family:"Arial";
 	font-style:italic;
 	font-size:16px
 }
