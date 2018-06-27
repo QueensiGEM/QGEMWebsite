@@ -4,23 +4,23 @@ body {
 }
 
 .text-muted {
-	color:#777
+	color:#212121
 }
 
 .text-blank {
-	color:#fff
+	color:#212121
 }
 
 .text-primary {
-	color:#fffff
+	color:#212121
 }
 
 .text-secondary {
-	color:#f23b0d
+	color:#212121
 }
 
 .text-tertiary {
-	color:#1a75ff
+	color:#212121
 }
 
 p {
@@ -615,7 +615,6 @@ h3.service-headingleft {
 
 #portfolio .portfolio-item .portfolio-caption p {
 	font-family:"Arial";
-	font-style:italic;
 	font-size:16px;
 	margin:0
 }
@@ -1140,7 +1139,7 @@ body {
 }
 
 .middlecolumn {
-	background:#f7f7f7;
+	background:#fff;
 	padding-right:50px;
 	padding-left:50px;
 	padding-top:5px;
