@@ -3,6 +3,10 @@ body {
 	font-family:"Arial";
 }
 
+new {
+    padding-left: 30px;
+}
+
 .text-muted {
 	color:#212121
 }
