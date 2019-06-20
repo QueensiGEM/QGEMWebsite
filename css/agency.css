@@ -427,27 +427,27 @@ button#dLabel:focus {
 		-webkit-transition:padding .3s;
 		-moz-transition:padding .3s;
 		transition:padding .3s;
-		border:0
+		border:0;
 	}
 
 	.navbar-default .navbar-brand {
 		font-size:2em;
 		-webkit-transition:all .3s;
 		-moz-transition:all .3s;
-		transition:all .3s
+		transition:all .3s;
 	}
 
 	.navbar-default .navbar-nav>.active>a {
-		border-radius:3px
+		border-radius:3px;
 	}
 
 	.navbar-default.navbar-shrink {
 		background-color:#0485BF;
-		padding:10px 0
+		padding:10px 0;
 	}
 
 	.navbar-default.navbar-shrink .navbar-brand {
-		font-size:1.5em
+		font-size:1.5em;
 	}
 }
 
@@ -465,7 +465,7 @@ header {
 
 header .intro-text {
 	padding-top:100px;
-	padding-bottom:50px
+	padding-bottom:50px;
 }
 
 header .intro-text .intro-lead-in {
@@ -491,7 +491,7 @@ header .intro-text .intro-heading {
 
 	header .intro-text {
 		padding-top:100px;
-		padding-bottom:50px
+		padding-bottom:50px;
 	}
 
 	header .intro-text .intro-lead-in {
@@ -558,6 +558,39 @@ h3.service-headingleft {
 	text-align:left;
 	margin:30px 0px 30px 0px
 }
+
+/*==================================================================*/
+/*Used when image is used instead of a text header also defines text/links within the image header*/
+.image-header {
+	background-image: url(../img/Blue_Background.png);
+	background-repeat: round;
+	height: 500px;
+	padding: 50px auto;
+}
+
+.image-header .image-text {
+	border: 10px solid #0442dc;
+	color: #0442dc;
+	font-size: 40px;
+	margin: 100px auto;
+	padding: 20px;
+	position: relative;
+	text-align: center;
+	text-transform: uppercase;
+	width: 50%;
+}
+
+.image-header .image-link {
+	bottom: 20px;
+	color: #0442dc;
+	font-size: 40px;
+	font-weight: bold;
+	left: 20px;
+	position: relative;
+	text-decoration: underline;
+}
+
+/*======================================================================*/
 
 #portfolio .portfolio-item {
 	margin:0 0 15px;
