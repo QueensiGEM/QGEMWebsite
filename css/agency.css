@@ -564,12 +564,13 @@ h3.service-headingleft {
 .image-header {
 	background-image: url(../img/Blue_Background.png);
 	background-repeat: round;
+	max-height: 610px;
 }
 
 .image-text {
 	border: 10px solid #0442dc;
 	color: #0442dc;
-	font-size: 50px;
+	font-size: 45px;
 	margin-left: auto;
 	margin-right: auto;
 	margin-top: 100px;
@@ -578,6 +579,7 @@ h3.service-headingleft {
 	text-align: center;
 	text-transform: uppercase;
 	width: 50%;
+	min-width: 400px;
 }
 
 .image-link {
@@ -590,11 +592,12 @@ h3.service-headingleft {
 	text-decoration: underline;
 }
 
-.center-link {
+a.center-link {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
 	width: 50%;
+	left: 0;
 	text-align: center;
 }
 
