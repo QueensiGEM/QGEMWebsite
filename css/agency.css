@@ -564,8 +564,6 @@ h3.service-headingleft {
 .image-header {
 	background-image: url(../img/Blue_Background.png);
 	background-repeat: round;
-	height: 500px;
-	padding: 50px auto;
 }
 
 .image-text {
@@ -587,7 +585,7 @@ h3.service-headingleft {
 	font-size: 40px;
 	font-weight: bold;
 	left: 20px;
-	padding-top: 20px;
+	top: 75px;
 	position: relative;
 	text-decoration: underline;
 }
