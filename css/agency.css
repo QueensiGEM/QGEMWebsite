@@ -607,6 +607,26 @@ a.center-link {
 	text-decoration: underline;
 }
 
+.plasmid-text {
+
+	font-size: 20px;
+}
+
+.plasmid-link a {
+	text-decoration: underline;
+	font-size: 20px;
+	font-weight: bold;
+	line-height: 2.00;
+	left: 0;
+	
+}
+
+.plasmid-caption {
+	color: #0442dc;
+	font-style: italic;
+	left: 25px;
+	padding-left: 20px;
+}
 
 /*======================================================================*/
 
