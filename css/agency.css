@@ -607,9 +607,16 @@ a.center-link {
 	text-decoration: underline;
 }
 
-.plasmid-text {
+/*=========================================================================
+Styles for the plasmid construction page*/
+
+.plasmid-text p {
 
 	font-size: 20px;
+}
+
+.plasmid-subheading{
+	text-decoration: underline;
 }
 
 .plasmid-link a {
