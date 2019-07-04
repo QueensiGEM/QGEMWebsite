@@ -427,27 +427,27 @@ button#dLabel:focus {
 		-webkit-transition:padding .3s;
 		-moz-transition:padding .3s;
 		transition:padding .3s;
-		border:0
+		border:0;
 	}
 
 	.navbar-default .navbar-brand {
 		font-size:2em;
 		-webkit-transition:all .3s;
 		-moz-transition:all .3s;
-		transition:all .3s
+		transition:all .3s;
 	}
 
 	.navbar-default .navbar-nav>.active>a {
-		border-radius:3px
+		border-radius:3px;
 	}
 
 	.navbar-default.navbar-shrink {
 		background-color:#0485BF;
-		padding:10px 0
+		padding:10px 0;
 	}
 
 	.navbar-default.navbar-shrink .navbar-brand {
-		font-size:1.5em
+		font-size:1.5em;
 	}
 }
 
@@ -465,7 +465,7 @@ header {
 
 header .intro-text {
 	padding-top:100px;
-	padding-bottom:50px
+	padding-bottom:50px;
 }
 
 header .intro-text .intro-lead-in {
@@ -491,7 +491,7 @@ header .intro-text .intro-heading {
 
 	header .intro-text {
 		padding-top:100px;
-		padding-bottom:50px
+		padding-bottom:50px;
 	}
 
 	header .intro-text .intro-lead-in {
@@ -558,6 +558,84 @@ h3.service-headingleft {
 	text-align:left;
 	margin:30px 0px 30px 0px
 }
+
+/*==================================================================*/
+/*Used when image is used instead of a text header also defines text/links within the image header*/
+.image-header {
+	background-image: url(../img/Blue_Background.png);
+	background-repeat: round;
+	max-height: 610px;
+}
+
+.image-text {
+	border: 10px solid #0442dc;
+	color: #0442dc;
+	font-size: 45px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 100px;
+	padding: 20px;
+	position: relative;
+	text-align: center;
+	text-transform: uppercase;
+	width: 50%;
+	min-width: 400px;
+}
+
+.image-link {
+	color: #0442dc;
+	font-size: 40px;
+	font-weight: bold;
+	left: 20px;
+	top: 75px;
+	position: relative;
+	text-decoration: underline;
+}
+
+a.center-link {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+	left: 0;
+	text-align: center;
+}
+
+.col-md-4 a.synbioclub-link, .col-md-6 a.synbioclub-link {
+	color: #0442dc;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+/*=========================================================================
+Styles for the plasmid construction page*/
+
+.plasmid-text p {
+
+	font-size: 20px;
+}
+
+.plasmid-subheading{
+	text-decoration: underline;
+}
+
+.plasmid-link a {
+	text-decoration: underline;
+	font-size: 20px;
+	font-weight: bold;
+	line-height: 2.00;
+	left: 0;
+	
+}
+
+.plasmid-caption {
+	color: #0442dc;
+	font-style: italic;
+	left: 25px;
+	padding-left: 20px;
+}
+
+/*======================================================================*/
 
 #portfolio .portfolio-item {
 	margin:0 0 15px;
