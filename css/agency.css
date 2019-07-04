@@ -563,8 +563,11 @@ h3.service-headingleft {
 /*Used when image is used instead of a text header also defines text/links within the image header*/
 .image-header {
 	background-image: url(../img/Blue_Background.png);
-	background-repeat: round;
-	max-height: 610px;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	min-height: 610px;
+
 }
 
 .image-text {
