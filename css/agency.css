@@ -601,7 +601,7 @@ a.center-link {
 	text-align: center;
 }
 
-.col-md-4 a.synbioclub-link {
+.col-md-4 a.synbioclub-link, .col-md-6 a.synbioclub-link {
 	color: #0442dc;
 	font-weight: bold;
 	text-decoration: underline;
