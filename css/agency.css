@@ -567,7 +567,6 @@ h3.service-headingleft {
 	background-position: center;
 	background-size: cover;
 	min-height: 610px;
-
 }
 
 .image-text {
@@ -582,7 +581,6 @@ h3.service-headingleft {
 	text-align: center;
 	text-transform: uppercase;
 	width: 50%;
-	min-width: 400px;
 }
 
 .image-link {
@@ -595,11 +593,47 @@ h3.service-headingleft {
 	text-decoration: underline;
 }
 
+@media only screen and (max-width: 900px) {
+	.image-text {
+		font-size: 35px;
+		padding: 5px
+	}
+	.image-link {
+		font-size: 35px;
+	}
+
+	.image-header {
+		min-height: 500px;
+	}
+}
+
+@media only screen and (max-width: 700px) {
+	.image-text {
+		font-size: 30px;
+		padding: 5px;
+		width: 90%;
+	}
+
+	.image-link {
+		font-size: 30px;
+		text-align: center;
+	}
+
+	.image-header {
+		min-height: 350px;
+	}
+
+}
+
+@media only screen and (max-width: 450px) {
+	.image-text {
+		font-size: 25px;
+	}
+}
+
+
 a.center-link {
 	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	width: 50%;
 	left: 0;
 	text-align: center;
 }
@@ -614,12 +648,17 @@ a.center-link {
 Styles for the plasmid construction page*/
 
 .plasmid-text p {
-
 	font-size: 20px;
 }
 
 .plasmid-subheading{
 	text-decoration: underline;
+}
+
+.page-nav {
+	position: sticky;
+	top: 0;
+	position: -webkit-sticky;
 }
 
 .plasmid-link a {
@@ -636,6 +675,46 @@ Styles for the plasmid construction page*/
 	font-style: italic;
 	left: 25px;
 	padding-left: 20px;
+}
+
+.plasmid-img {
+	max-width: 100%;
+}
+
+
+/*Adjust the page links so that it displays properly with the navbar and 
+does not stick to top on small screens*/
+
+@media only screen and (min-width: 1200px) {
+
+.page-nav {
+	padding-top: 75px;
+}
+
+}
+
+@media only screen and (min-width: 1000px) and (max-width: 1199px) {
+
+.page-nav {
+	padding-top: 150px;
+}
+
+}
+
+@media only screen and (min-width: 750px) and (max-width: 999px) {
+
+.page-nav {
+	padding-top: 175px;
+}
+
+}
+
+@media only screen and (max-width: 750px) {
+
+.page-nav {
+	position: relative;
+}
+
 }
 
 /*======================================================================*/
@@ -1191,6 +1270,25 @@ body {
 	padding-right:30px;
 }
 
+
+/*Added queries to make images take full width on small screens*/
+@media only screen and (max-width: 600px) {
+
+	.bodyimageright {
+	width: 100%;
+	height: auto;
+	padding-left: 0;
+}
+
+
+.bodyimageleft {
+	width: 100%;
+	height: auto;
+	padding-right: 0;
+}
+
+}
+
 .blogimageleft {
 	width:50%;
 	padding-top:15px;
@@ -1236,7 +1334,6 @@ body {
 .paragraph {
 	padding-top:15px;
 	padding-bottom:15px;
-	text-align:justify;
 }
 
 .panel-default {
